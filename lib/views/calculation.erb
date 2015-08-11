@@ -1,0 +1,9 @@
+<% calculation.each do |row| %>
+  <tr>
+    <td> <%= row[:month] %> </td>
+    <td> <%= row[:loan_payment] %> </td>
+    <td> <%= row[:interest] %> </td>
+    <td> <%= row[:total_payment] %> </td>
+    <td> <%= row[:loan_payment_left] %> </td>
+  </tr>
+<% end %>
